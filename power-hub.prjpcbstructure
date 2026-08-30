@@ -1,2 +1,3 @@
 ﻿Record=TopLevelDocument|FileName=converter.schdoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=converter.schdoc|FileName=misc.schdoc|SheetNumber=3
 Record=NoMainPathDocument|SourceDocument=converter.schdoc|FileName=sockets.schdoc|SheetNumber=2
