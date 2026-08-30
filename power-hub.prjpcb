@@ -69,6 +69,23 @@ GenerateClassCluster=0
 DocumentUniqueId=HBFGFYGR
 
 [Document2]
+DocumentPath=sch\sockets.schdoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KHGAGMUQ
+
+[Document3]
 DocumentPath=pcb\main.pcbdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -85,7 +102,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YNGYUIND
 
-[Document3]
+[Document4]
 DocumentPath=lib\mw.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -102,7 +119,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MSKNGCIS
 
-[Document4]
+[Document5]
 DocumentPath=lib\mw.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -118,23 +135,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SPCOHXLI
-
-[Document5]
-DocumentPath=sch\sockets.schdoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=KHGAGMUQ
 
 [Configuration1]
 Name=Sources
