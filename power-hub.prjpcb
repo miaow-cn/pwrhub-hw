@@ -46,6 +46,7 @@ CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
 XNetsSourceDestinationPrefixes=U, X
 XNetsDiscretesPrefixes=R, L, C, VD
+CurrentVariant=main
 
 [Preferences]
 PrefsVaultGUID=
@@ -53,7 +54,7 @@ PrefsRevisionGUID=
 
 [Document1]
 DocumentPath=sch\converter.schdoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=100
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -87,7 +88,7 @@ DocumentUniqueId=KHGAGMUQ
 
 [Document3]
 DocumentPath=sch\misc.schdoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=300
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -169,6 +170,15 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[ProjectVariant1]
+UniqueId=1ee024e7-2c35-440f-8676-0975d8431675
+Description=main
+AllowFabrication=0
+ParameterCount=0
+VariationCount=1
+Variation1=Designator=R201|UniqueId=\MFEISMVV|Kind=1|AlternatePart=
+ParamVariationCount=0
 
 [Configuration1]
 Name=Sources
