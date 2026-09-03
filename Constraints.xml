@@ -11,6 +11,8 @@
     <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="VBUS" ConstraintNetId="e94d463f-1570-4340-b9a8-baa240f881b3" />
     <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="DP" ConstraintNetId="e77df575-6d88-421c-995c-8caaba98b95a" />
     <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="DM" ConstraintNetId="be6079e4-6e2b-4c0c-8437-3c7d5b015865" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="NetJ200_A5" ConstraintNetId="973a8d9d-412c-432e-80f6-06ef7ea057b0" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="NetJ200_B5" ConstraintNetId="c92ecd56-8725-4a09-a239-a9b8710fdfa2" />
   </FlattenedNetName2ConstraintNetId>
   <CNets>
     <CNet Id="9fd799f9-74d6-46e4-9c4f-1872e01f6f70">
@@ -73,6 +75,18 @@
       <ConstraintSets />
       <ConstraintNodes />
     </CNet>
+    <CNet Id="973a8d9d-412c-432e-80f6-06ef7ea057b0">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="c92ecd56-8725-4a09-a239-a9b8710fdfa2">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
   </CNets>
   <CNetClasses>
     <CNetClass Id="b89d39dc-ef20-420e-a673-7aa5c1fd0b97" Name="All Nets" IsPredefined="true" Domain="2">
@@ -102,6 +116,16 @@
         <CNet Id="76027d34-6ff3-4508-8b96-a655b2e22c0d" />
         <CNet Id="5239729b-0fa3-49f3-b632-d2afb76b3333" />
         <CNet Id="e94d463f-1570-4340-b9a8-baa240f881b3" />
+      </CNets>
+      <ObservedDirectiveParamsUniqueIds />
+    </CNetClass>
+    <CNetClass Id="2ee5a40e-c526-4af1-b2cf-f2174725e144" Name="NewClassCC" IsPredefined="false" Domain="2">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <CNets>
+        <CNet Id="973a8d9d-412c-432e-80f6-06ef7ea057b0" />
+        <CNet Id="c92ecd56-8725-4a09-a239-a9b8710fdfa2" />
       </CNets>
       <ObservedDirectiveParamsUniqueIds />
     </CNetClass>
@@ -154,8 +178,8 @@
             <ConstraintObject Id="00000000-0000-0000-0000-000000000000" />
             <DefaultConstraintClearancesMatrixConstraint Id="00000000-0000-0000-0000-000000000000" Kind="0" Comment="" Description="" Attributes="" LayerType="0" LayerId="0" />
             <CCMConstraints>
-              <CCMConstraint Id="f6de9ad6-5460-46fc-8265-f22b20676b5e" Kind="0" Name="ClearanceAll_1" Comment="" Description="Clearance Constraint [Generic clearance = 3.5mil, and 10 value(s) for objects]" Scope1="OnOutside" Scope2="OnOutside" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|GAP=3.5mil|GENERICCLEARANCE=3.5mil|IGNOREPADTOPADCLEARANCEINFOOTPRINT=FALSE|OBJECTCLEARANCES=ClearanceObj_Arc-ClearanceObj_SMDPad:39370;ClearanceObj_Track-ClearanceObj_SMDPad:39370;ClearanceObj_SMDPad-ClearanceObj_SMDPad:39370;ClearanceObj_SMDPad-ClearanceObj_THPad:39370;ClearanceObj_SMDPad-ClearanceObj_Via:39370;ClearanceObj_SMDPad-ClearanceObj_Fill:39370;ClearanceObj_SMDPad-ClearanceObj_Poly:39370;ClearanceObj_SMDPad-ClearanceObj_Region:39370;ClearanceObj_SMDPad-ClearanceObj_Text:39370;ClearanceObj_SMDPad-ClearanceObj_Hole:39370|DOC=main.pcbdoc" LayerType="1" LayerId="0" OverrideClearancePairs="" />
-              <CCMConstraint Id="75fc6efb-2f02-49b9-b21b-f4c270ecf8d2" Kind="0" Name="ClearanceAll_2" Comment="" Description="Clearance Constraint [Generic clearance = 3.5mil, and 10 value(s) for objects]" Scope1="OnMid" Scope2="OnMid" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|GAP=3.5mil|GENERICCLEARANCE=3.5mil|IGNOREPADTOPADCLEARANCEINFOOTPRINT=FALSE|OBJECTCLEARANCES=ClearanceObj_Arc-ClearanceObj_SMDPad:39370;ClearanceObj_Track-ClearanceObj_SMDPad:39370;ClearanceObj_SMDPad-ClearanceObj_SMDPad:39370;ClearanceObj_SMDPad-ClearanceObj_THPad:39370;ClearanceObj_SMDPad-ClearanceObj_Via:39370;ClearanceObj_SMDPad-ClearanceObj_Fill:39370;ClearanceObj_SMDPad-ClearanceObj_Poly:39370;ClearanceObj_SMDPad-ClearanceObj_Region:39370;ClearanceObj_SMDPad-ClearanceObj_Text:39370;ClearanceObj_SMDPad-ClearanceObj_Hole:39370|DOC=main.pcbdoc" LayerType="2" LayerId="0" OverrideClearancePairs="" />
+              <CCMConstraint Id="f6de9ad6-5460-46fc-8265-f22b20676b5e" Kind="0" Name="ClearanceAll_1" Comment="" Description="Clearance Constraint [Generic clearance = 0.1mm, and 7 value(s) for objects]" Scope1="OnOutside" Scope2="OnOutside" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|GAP=3.937mil|GENERICCLEARANCE=3.937mil|IGNOREPADTOPADCLEARANCEINFOOTPRINT=FALSE|OBJECTCLEARANCES=ClearanceObj_Arc-ClearanceObj_Arc:35000;ClearanceObj_Arc-ClearanceObj_Track:35000;ClearanceObj_Arc-ClearanceObj_Text:35000;ClearanceObj_Track-ClearanceObj_Track:35000;ClearanceObj_Track-ClearanceObj_Text:35000;ClearanceObj_Text-ClearanceObj_Text:35000;ClearanceObj_Hole-ClearanceObj_Hole:35000|DOC=main.pcbdoc" LayerType="1" LayerId="0" OverrideClearancePairs="" />
+              <CCMConstraint Id="75fc6efb-2f02-49b9-b21b-f4c270ecf8d2" Kind="0" Name="ClearanceAll_2" Comment="" Description="Clearance Constraint [Generic clearance = 0.1mm, and 7 value(s) for objects]" Scope1="OnMid" Scope2="OnMid" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|GAP=3.937mil|GENERICCLEARANCE=3.937mil|IGNOREPADTOPADCLEARANCEINFOOTPRINT=FALSE|OBJECTCLEARANCES=ClearanceObj_Arc-ClearanceObj_Arc:35000;ClearanceObj_Arc-ClearanceObj_Track:35000;ClearanceObj_Arc-ClearanceObj_Text:35000;ClearanceObj_Track-ClearanceObj_Track:35000;ClearanceObj_Track-ClearanceObj_Text:35000;ClearanceObj_Text-ClearanceObj_Text:35000;ClearanceObj_Hole-ClearanceObj_Hole:35000|DOC=main.pcbdoc" LayerType="2" LayerId="0" OverrideClearancePairs="" />
             </CCMConstraints>
           </CCMToScope>
         </CCMToScopes>
