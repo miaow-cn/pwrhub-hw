@@ -2,6 +2,8 @@
 
 A compact 7‑channel DC power distribution board built around TPS563201 synchronous step‑down converters. It generates 7 high‑current output rails for powering FPGAs, SBCs, MCU boards, sensors, and other digital logic systems.
 
+![pcba](./res/pcba.png)
+
 ## Features
 
 - USB Type C Input: USB PD 3.x compact adapter
